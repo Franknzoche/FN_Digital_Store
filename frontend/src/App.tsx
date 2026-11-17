@@ -1,5 +1,8 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./app/router";
+
 function App() {
-  return <h1 className="text-3xl font-extrabold text-marque">FN Digital Store</h1>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
